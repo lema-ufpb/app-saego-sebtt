@@ -47,7 +47,7 @@ deploy:
     - |
       ssh $SSH_DOCKER_HOST "mkdir -p ~/apps/sebtt"
       scp docker-compose.yaml $SSH_DOCKER_HOST:~/apps/sebtt
-      ssh $SSH_DOCKER_HOST "mkdir -p ~/apps/sebtt && cd ~/apps/sebtt && docker-compose up -d"
+      ssh $SSH_DOCKER_HOST "cd ~/apps/sebtt && docker-compose up -d"
       ssh $SSH_DOCKER_HOST "sleep 60 && rm -rf ~/apps"
   tags:
     - padrao
