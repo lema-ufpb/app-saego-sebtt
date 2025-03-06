@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    container_name: app-saego-sebtt
+    hostname: saego-sebtt
+    restart: "unless-stopped"
+    ports:
+      - "3000:3000"
+    networks:
+      - production
+networks:
+  production:

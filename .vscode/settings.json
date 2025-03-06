@@ -19,6 +19,8 @@
     "editor.showUnused": true
 },
 "cSpell.words": [
+  "addgroup",
+  "adduser",
   "dind",
   "dockerenv",
   "gettext",
