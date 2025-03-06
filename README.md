@@ -1,4 +1,4 @@
-# SAEGO SEBTT Application Project - Graduate Alumni Tracking System
+# SAEGO SEBTT Application Project - Alumni Tracking System
 
 This project hosts a web application for tracking alumni from Superintendência do Ensino Básico, Técnico e Tecnológico (SEBTT), using an iframe that embeds a Power BI dashboard. The main objective is to provide an accessible interface to visualize and analyze relevant data about alumni.
 
