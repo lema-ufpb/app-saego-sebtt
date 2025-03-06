@@ -24,12 +24,14 @@
   "dind",
   "dockerenv",
   "gettext",
+  "github",
   "keyscan",
   "openssh",
   "padrao",
   "saego",
   "SAEGO",
   "sebtt",
-  "SEBTT"
+  "SEBTT",
+  "ufpb"
 ],
 }
